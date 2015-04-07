@@ -1,0 +1,9 @@
+Cores do Site:
+
+Creme fundo: 		#FFFF98
+Laranja titulos: 	#FF8000
+Bordo titulos:		#790000
+
+duo, code fights, whatchseries bb 45 vk 34
+
+vivessencias, carslos e localhost
