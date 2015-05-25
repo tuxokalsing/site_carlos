@@ -1,0 +1,235 @@
+/* CSS for gallery images */
+
+/* Static state */
+#photo_container 	{ 
+	width: 290px; 
+	height: 200px; 
+	position: relative; 
+	border: 1px solid #ccc;
+	background: no-repeat;
+	background-size: 100% 100%;
+}
+.photo_par1 	{ 
+	/* overall animation container */
+	height: 50px; 
+	overflow: hidden;
+	margin-top: 150px;
+
+	transition-property: height;
+	transition-duration: 0.5s;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+
+.photo_par2	{ 
+	/* full content during animation *can* go here */ 
+}
+.photo_par3	{ 
+	/* animated, "folded" block */
+	background: rgba(0, 0, 0, .5);
+	height: 50px; 	
+	transition-property: all; 
+	transition-duration: 0.5s;
+	transform: rotateX(92deg);
+	transform-origin: bottom;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;	/* same as div height */
+	
+	font-family: 'Economica', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	
+}
+
+/* Hover states to trigger animations */
+#photo_container:hover .photo_par1	{ 
+	height: 50px; 
+}
+#photo_container:hover .photo_par3	{
+	transform: rotateX(0deg); 
+	height: 50px;
+}
+
+.gallery_division {
+	padding-top: 10px;
+}
+
+/* Same Style for index */
+#index_photo_container 	{ 
+	width: 310px; 
+	height: 185px; 
+	position: relative; 
+	border: 1px solid #ccc;
+	background: no-repeat;
+	text-align: center;
+}
+.index_photo_par1 	{ 
+	/* overall animation container */
+	height: 50px; 
+	overflow: hidden;
+	margin-top: 135px;
+
+	transition-property: height;
+	transition-duration: 0.5s;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+
+.index_photo_par2	{ 
+	/* full content during animation *can* go here */ 
+}
+.index_photo_par3	{ 
+	/* animated, "folded" block */
+	background: rgba(0, 0, 0, .5);
+	height: 50px; 	
+	transition-property: all; 
+	transition-duration: 0.5s;
+	transform: rotateX(92deg);
+	transform-origin: bottom;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;	/* same as div height */
+	
+	font-family: 'Economica', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	
+}
+
+/* Hover states to trigger animations */
+#index_photo_container:hover .index_photo_par1	{ 
+	height: 50px; 
+}
+#index_photo_container:hover .index_photo_par3	{
+	transform: rotateX(0deg); 
+	height: 50px;
+}
+
+.index_highlights {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+/* Same Style for index */
+#news_photo_container 	{ 
+	width: 310px; 
+	height: 185px; 
+	position: relative; 
+	border: 1px solid #ccc;
+	background: no-repeat;
+	text-align: center;
+	background-size: 100% 100%;
+}
+.news_photo_par1 	{ 
+	/* overall animation container */
+	height: 50px; 
+	overflow: hidden;
+	margin-top: 135px;
+
+	transition-property: height;
+	transition-duration: 0.5s;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+
+.news_photo_par2	{ 
+	/* full content during animation *can* go here */ 
+}
+.news_photo_par3	{ 
+	/* animated, "folded" block */
+	background: rgba(0, 0, 0, .5);
+	height: 50px; 	
+	transition-property: all; 
+	transition-duration: 0.5s;
+	transform: rotateX(92deg);
+	transform-origin: bottom;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;	/* same as div height */
+	
+	font-family: 'Economica', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	
+}
+
+/* Hover states to trigger animations */
+#news_photo_container:hover .news_photo_par1	{ 
+	height: 50px; 
+}
+#news_photo_container:hover .news_photo_par3	{
+	transform: rotateX(0deg); 
+	height: 50px;
+}
+
+.news_highlights {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+.image-link {
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
+}
+
+
+/* This block of CSS adds opacity transition to background */
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+
+
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+
+
+/* aligns caption to center */
+.mfp-title {
+  text-align: center;
+  padding: 6px 0;
+}
+.image-source-link {
+  color: #DDD;
+}
+
+.news_highlights {
+	margin:0px 0px 0px 0px;
+}
+

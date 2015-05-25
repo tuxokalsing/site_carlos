@@ -1,9 +1,9 @@
-﻿<?php
+<?php
 /*
 *	Website Pessoal Carlos Gutterres
 *
 *	Desenvolvedores: 	Arthur Kalsing
-*	Descrição: 			Página inicial website (fotos, apresentação, links para sessões)
+*	Descrição: 			Entrada do site com animações e curtas explicações
 *
 */		
 
@@ -11,124 +11,188 @@
 
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-	<title>Carlos Gutterres</title>
-	<meta charset="utf-8">
-	<link type="text/css" rel="stylesheet" href="styles/style.css" />
-	<link type="text/css" rel="stylesheet" href="styles/skin.css" />
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
-	<script type="text/javascript" src="js/initSlider.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/demo.css" />
-	<link rel="stylesheet" type="text/css" href="css/common.css" />
-	<link rel="stylesheet" type="text/css" href="css/style2.css" />
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css' />
-	<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
-	<!--[if lte IE 8]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
-	
-	
-	<!--[if IE 6]>
-	<script src="js/ie6-transparency.js"></script>
-	<script>DD_belatedPNG.fix('#header img, #featured-section h2, #circles img, #frontpage-sidebar .read-more, .blue-bullets li, #sidebar .sidebar-button, #project-content .read-more, .more-link, #contact-form .submit, .jcarousel-skin-tango .jcarousel-next-horizontal, .jcarousel-skin-tango .jcarousel-prev-horizontal, #commentform .submit');</script>
-	<style>body { behavior: url("styles/ie6-hover-fix.htc"); }</style>
-	<link rel="stylesheet" href="styles/ie6.css" />
-	<![endif]-->
-	<!--[if IE 7]><link rel="stylesheet" href="styles/ie7.css" /><![endif]-->
-	<!--[if IE 8]><link rel="stylesheet" href="styles/ie8.css" /><![endif]-->
-</head>
-<body class="home">
-<div id="wrap">
-<!--==============================header=================================-->  
-  <div id="header">
-  <header> 
-	<?php include("header.php"); ?>
-  </header>
-  </div>
-<!--==============================Content=================================-->
-  <div id="featured-section">
-  
-	<ul class="ch-grid">
-		<li>
-			<div class="ch-item ch-img-1">
-				<div class="ch-info">
-					<h3>Carlos</h3>
-					<p>Descubra <a href="#">aqui</a></p>
-				</div>
-			</div>
-		</li>
-		<li>
-			<div class="ch-item ch-img-2">
-				<div class="ch-info">
-					<h3>Vivessencias</h3>
-					<p>Descubra <a href="#">aqui</a></p>
-				</div>
-			</div>
-		</li>
-		<li>
-			<div class="ch-item ch-img-3">
-				<div class="ch-info">
-					<h3>Espiri
-					tualidade</h3>
-					<p>Descubra <a href="#">aqui</a></p>
-				</div>
-			</div>
-		</li>
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Carlos Gutterers Portfólio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Pagina pessoal de Carlos Gutterres" />
+        <meta name="keywords" content="Carlos Guterres, Vivessencias, Espiritualidade, Jin Shin Jyutsu" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
+		</noscript>
+    </head>
+    <body>
+        <div class="container demo-1">
 		
-		<li>
-			<div class="ch-item ch-img-4">
-				<div class="ch-info">
-					<h3>Jin Shin Jyutsu</h3>
-					<p>Descubra <a href="#">aqui</a></p>
-				</div>
-			</div>
-		</li>
-	</ul>
-  
-    <!--end circles-->
-    <div id="image-slider">
-      <ul id="mycarousel" class="jcarousel-skin-tango">
-        <li class="first"><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
-        <li><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
-        <li><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
-        <li class="first"><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
-        <li><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
-        <li><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
-        <li class="first"><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
-        <li><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
-        <li><a href="#"><img width="280" height="190" src="images/280x190.gif" alt="" /></a></li>
-      </ul>
-    </div>
-    <!--end image-slider-->
-  </div>
-  <!--end featured-section-->
-  <div id="frontpage-main">
-    <div id="frontpage-content">
-      <h3>Why Work With Akono?</h3>
-      <p>You’ll not regret getting in touch with us about your new project. Below are some of the benefits.</p>
-      <ul class="blue-bullets">
-        <li>Over 15 Years Real World Experience</li>
-        <li>Voted No. 1 Design Studio In The World</li>
-        <li>Support And Guidance At Every Step</li>
-        <li>A Great Solution That You&#8217;ll Be Happy With</li>
-      </ul>
-    </div>
-    <!--end frontpage-content-->
-    <div id="frontpage-sidebar">
-      <h3>Latest Article</h3>
-      <a class="blog-title" href="#">Top Tips For Hiring A Design Agency</a>
-      <p class="meta">1st May 2011 / <a href="#">No Comments &#187;</a></p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-      <a class="read-more" href="#">Read More &raquo;</a> </div>
-    <!--end frontpage-sidebar-->
-  </div>
-  <!--end frontpage-main-->
-  <div id="footer">
-    <p class="copyright">Copyright &copy; <a href="#">Domain Name</a> - All Rights Reserved / Design By <a target="_blank" href="http://www.chris-creed.com/">Chris Creed</a> | Download more: <a href="http://www.csstemplatesfree.org">CSS Website Templates</a></p>
-  </div>
-  <!--end footer-->
-</div>
-<!--end wrap-->
-</body>
-<div class="cache-images"><img src="images/red-button-bg.png" width="0" height="0" alt="" /><img src="images/black-button-bg.png" width="0" height="0" alt="" /></div>
-<!--end cache-images-->
+			<div id="slider" class="sl-slider-wrapper">
+
+				<div class="sl-slider">
+				
+					<div class="sl-slide bg-1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+						<div class="sl-slide-inner">
+							<a href="inicio.php"><div class="deco1" data-icon1></div></a>
+							<h2>Carlos Gutterres</h2>
+							<blockquote>
+								<p>Terapeuta vibracional, ocultista e neo-alquimista vem dedicando-se à pesquisa dos 
+								temas relacionados à espiritualidade a mais quarenta anos.</p>
+								<a href="inicio.php"><cite>Descubra</cite></a>
+							</blockquote>
+						</div>
+					</div>
+					
+					<div class="sl-slide bg-2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+						<div class="sl-slide-inner">
+							<a href="espiritualidade.php"><div class="deco" data-icon2></div></a>
+							<h2>Espiritualidade</h2>
+							<blockquote>
+								<p>A espiritualidade pode ser definida como uma "propensão humana a buscar 
+								significado para a vida por meio de conceitos que transcendem o tangível, 
+								à procura de um sentido de conexão com algo maior que si próprio".</p>
+								<a href="espiritualidade.php"><cite>Saiba mais</cite></a>
+							</blockquote>
+						</div>
+					</div>
+					
+					<div class="sl-slide bg-3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<a href="vivessencias.php"><div class="deco" data-icon3></div></a>
+							<h2>Vivessencias</h2>
+							<blockquote>
+								<p>Os Harmonizadores Vibracionais são elementos que se oferecem para 
+								auxiliar o ser humano na tarefa de se reconectar com o abundante fluxo 
+								de energia harmônica universal, colaborando para que ocorra uma tomada 
+								de consciência dos princípios causadores da tensão.</p>
+								<a href="vivessencias.php"><cite>Venha nos conhecer</cite></a>
+							</blockquote>
+						</div>
+					</div>
+					
+					<div class="sl-slide bg-4" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner">
+							<a href="jinshinjyutsu.php"><div class="deco" data-icon4></div></a>
+							<h2>Jin Shin Jyutsu</h2>
+							<blockquote>
+								<p>Jin Shin Jyutsu® Fisio-Filosofia é uma arte ancestral 
+								de harmonização da energia vital no corpo.</p>
+								<a href="jinshinjyutsu.php"><cite>Pratique</cite></a>
+							</blockquote>
+						</div>
+					</div>
+					
+				</div><!-- /sl-slider -->
+				
+							
+				<nav id="nav-arrows" class="nav-arrows">
+					<span class="nav-arrow-prev">Previous</span>
+					<span class="nav-arrow-next">Next</span>
+				</nav>
+
+				<nav id="nav-dots" class="nav-dots">
+					<span class="nav-dot-current"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</nav>
+
+			</div><!-- /slider-wrapper -->
+			
+			
+			
+        </div>
+			
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
+		<script type="text/javascript" src="js/jquery.slitslider.js"></script>
+		<script type="text/javascript">	
+			$(function() {
+			
+				var Page = (function() {
+
+					var $navArrows = $( '#nav-arrows' ),
+						$nav = $( '#nav-dots > span' ),
+						slitslider = $( '#slider' ).slitslider( {
+							onBeforeChange : function( slide, pos ) {
+
+								$nav.removeClass( 'nav-dot-current' );
+								$nav.eq( pos ).addClass( 'nav-dot-current' );
+
+							}
+						} ),
+
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							// add navigation events
+							$navArrows.children( ':last' ).on( 'click', function() {
+
+								slitslider.next();
+								return false;
+
+							} );
+
+							$navArrows.children( ':first' ).on( 'click', function() {
+								
+								slitslider.previous();
+								return false;
+
+							} );
+
+							$nav.each( function( i ) {
+							
+								$( this ).on( 'click', function( event ) {
+									
+									var $dot = $( this );
+									
+									if( !slitslider.isActive() ) {
+
+										$nav.removeClass( 'nav-dot-current' );
+										$dot.addClass( 'nav-dot-current' );
+									
+									}
+									
+									slitslider.jump( i + 1 );
+									return false;
+								
+								} );
+								
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+
+				/**
+				 * Notes: 
+				 * 
+				 * example how to add items:
+				 */
+
+				/*
+				
+				var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
+				
+				// call the plugin's add method
+				ss.add($items);
+
+				*/
+			
+			});
+		</script>
+		
+	</body>
 </html>

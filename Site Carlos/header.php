@@ -10,23 +10,12 @@
 ?>
 
 	<img src="images/logo.png" />
-    <div id="nav">
+    <div id="nav" style="margin-top: 0px;">
       <ul class="menu">
-        <li class="current_page_item"><a href="index.php">Home</a></li>
-        <li><a href="page.php">Sistema Vida</a>
-          <ul class="sub-menu">
-            <li><a href="#">Introdução</a></li>
-            <li><a href="#">Estrutura do Sistema Vida</a></li>
-            <li><a href="#">Missão e Propósito</a></li>
-            <li><a href="#">Harmonizadores Vibracionais</a></li>
-            <li><a href="#">Essências</a></li>
-            <li><a href="#">Sobre os Pesquisadores</a></li>
-            <li><a href="#">Cursos</a></li>
-            <li><a href="#">Pedidos</a></li>
-          </ul>
-        </li>
-        <li><a href="portfolio.php">Espiritualidade</a></li>
-        <li><a href="articles.php">Jin Shin Jyutsu</a></li>
+        <li class="current_page_item"><a href="inicio.php">Home</a></li>
+        <li><a href="vivessencias.php">Vivessencias</a></li>
+        <li><a href="espiritualidade.php">Espiritualidade</a></li>
+        <li><a href="jinshinjyutsu.php">Jin Shin Jyutsu</a></li>
       </ul>
     </div>
     <!--end nav-->
