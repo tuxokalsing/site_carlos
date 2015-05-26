@@ -19,9 +19,7 @@
 		<meta name="format-detection" content="telephone=no" />
 		<link rel="icon" type="image/gif" href="images/favicon.gif">
 		
-		<!-- <link rel="stylesheet" type="text/css" href="css/demo2.css" /> -->
-		<link rel="stylesheet" type="text/css" href="css/common.css" />
-		<link rel="stylesheet" type="text/css" href="css/style2.css" />
+		<link rel="stylesheet" type="text/css" href="css/menu_circles.css" />
 		
 		<link rel="shortcut icon" href="images/favicon.gif" />
 		<link rel="stylesheet" href="css/ie/style_common.css" />
@@ -68,49 +66,54 @@
 		<link rel="stylesheet" media="screen" href="css/ie.css">
 		<![endif]-->		
 	</head>
-	<body class="page1" id="top">
-		<div class="main" style="margin-top: 10px;">
+	<body id="top" class="fundo_1">
+		<div class="main">
 <!--==============================header=================================-->
-			<header>
-				<ul class="ch-grid">
-					<li>
-						<div class="ch-item ch-img-1">
-							<div class="ch-info">
-								<h3>Carlos</h3>
-								<p>Descubra <a href="#">aqui</a></p>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item ch-img-2">
-							<div class="ch-info">
-								<h3>Vivessencias</h3>
-								<p>Descubra <a href="#">aqui</a></p>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item ch-img-3">
-							<div class="ch-info">
-								<h3>Espiri
-								tualidade</h3>
-								<p>Descubra <a href="#">aqui</a></p>
-							</div>
-						</div>
-					</li>
-					
-					<li>
-						<div class="ch-item ch-img-4">
-							<div class="ch-info">
-								<h3>Jin Shin Jyutsu</h3>
-								<p>Descubra <a href="#">aqui</a></p>
-							</div>
-						</div>
-					</li>
-				</ul>
+			<header class="menu_sup fundo_menu_1">
+				<div class="container_12">
+					<div class="row">
+					<div class="grid_4">
+						<div class="titulo texto_menu_1">- Terapeuta vibracional, ocultista e neo-alquimista -</div>
+						<div class="nome texto_menu_1">CARLOS GUTTERRES</div>
+					</div>
+					<div class="grid_8">
+						<ul class="ch-grid">
+							<li>
+								<div class="ch-item ch-img-1">
+									<div class="ch-info">
+										<h3 class="texto_menu_1">Carlos</h3>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="ch-item ch-img-2">
+									<div class="ch-info">
+										<h3 class="texto_menu_1">Vivessencias</h3>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="ch-item ch-img-3">
+									<div class="ch-info">
+										<h3 class="texto_menu_1">Espiritualidade</h3>
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="ch-item ch-img-4">
+									<div class="ch-info">
+										<h3 class="texto_menu_1">Jin Shin Jyutsu</h3>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					</div>
+				</div>
 			</header>
 <!--==============================Content=================================-->
-			<div class="content">
+			<div class="content corpo_1">
 				<div class="container_12">
 					<div class="grid_7">
 						<h3>Bem vindo à IECBiot</h3>

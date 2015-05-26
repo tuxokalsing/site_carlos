@@ -8,6 +8,8 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400italic);
 @import url(//fonts.googleapis.com/css?family=Economica:400);
 @import url(//fonts.googleapis.com/css?family=Economica:700);
+@import url(//fonts.googleapis.com/css?family=Enriqueta:400);
+@import url(//fonts.googleapis.com/css?family=Enriqueta:700);
 @import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
 @import url(//fonts.googleapis.com/css?family=BenchNine:700);
 html {
@@ -284,6 +286,7 @@ a:hover {
 
 .main {
     background-color: #fff;
+	margin-top: 20px;
 }
 
 header {
@@ -1074,4 +1077,72 @@ header h1 a {
     line-height: 42px;
 	padding-top: 50px;
     margin-bottom: 21px;
+}
+
+.nome {
+	font-family: 'Enriqueta';
+    font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	font-size: 36px;
+	text-align: center;
+    line-height: 40px;
+	padding-top: 5px;
+	text-shadow: 0 0 1px;
+}
+
+.titulo {
+	font-family: 'Basic';
+    font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	font-size: 16px;
+	text-align: center;
+    line-height: 0px;
+	padding-top: 85px;
+}
+
+.menu_sup {
+    height: 210px;
+    padding-top: 0px;
+}
+
+
+// ACERTAR ESTILOS PARA CORES DO SITE - IMITAR ENTRADA
+.texto_menu_1 {
+	color: #000;
+}
+
+.fundo_menu_1 {
+	background-color: white;
+}
+
+.corpo_1 {
+	background-color: wheat;
+}
+
+.fundo_1 {
+	background-color: black;
+}
+
+.fundo_2 {
+	background-color: #F47435;
+}
+
+.detalhe_2 {
+	background-color: wheat;
+}
+.fundo_3 {
+	background-color: #000;
+}
+
+.detalhe_3 {
+	background-color: #FFF;
+}
+.fundo_4 {
+	background-color: #F47435;
+}
+
+.detalhe_4 {
+	background-color: wheat;
 }
