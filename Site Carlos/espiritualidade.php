@@ -87,23 +87,23 @@
 							</li>
 							
 							<li>
-								<div class="ch-item ch-item-color-2 ch-img-2" style="cursor: pointer;" onclick="window.location='vivessencias.php';">
-									<div class="ch-info" style="cursor: pointer;" onclick="window.location='vivessencias.php';">
+								<div class="ch-item ch-item-color-2 ch-img-2">
+									<div class="ch-info">
 										<h3 class="texto_menu_1">Vivessencias</h3>
 									</div>
 								</div>
 							</li>
 							<li>
-								<div class="ch-item ch-item-color-3 ch-img-3" style="cursor: pointer;" onclick="window.location='espiritualidade.php';">
-									<div class="ch-info" style="cursor: pointer;" onclick="window.location='espiritualidade.php';">
+								<div class="ch-item ch-item-color-3 ch-img-3">
+									<div class="ch-info">
 										<h3 class="texto_menu_1">Espiritualidade</h3>
 									</div>
 								</div>
 							</li>
 							
 							<li>
-								<div class="ch-item ch-item-color-4 ch-img-4" style="cursor: pointer;" onclick="window.location='jin_shin_jyutsu.php';">
-									<div class="ch-info" style="cursor: pointer;" onclick="window.location='jin_shin_jyutsu.php';">
+								<div class="ch-item ch-item-color-4 ch-img-4">
+									<div class="ch-info">
 										<h3 class="texto_menu_1">Jin Shin Jyutsu</h3>
 									</div>
 								</div>
